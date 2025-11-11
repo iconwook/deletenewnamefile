@@ -1,5 +1,6 @@
 // math.js
 export function add(a, b) {
+  console.log(`Result is: ${a + b}`); // 출력 형식 변경
   return a + b;
 }
 
