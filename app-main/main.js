@@ -13,6 +13,7 @@ function main() {
   console.log("현재 시간:", getCurrentTime());
 
   logMessage("프로그램 종료");
+  console.log("Hello, GitPractice_JS updated!");
 }
 
 main();
