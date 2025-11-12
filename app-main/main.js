@@ -12,10 +12,8 @@ function main() {
   console.log(message);
   console.log("현재 시간:", getCurrentTime());
 
-  console.log("프로그램시간 입니다. 호호호");
   logMessage("프로그램 종료");
   console.log("Hello, GitPractice_JS updated!");
-  console.log("세상에 이런일이");
   console.log("Branch test update!");
 
 }
