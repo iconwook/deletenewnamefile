@@ -6,7 +6,8 @@ export function add(a, b) {
 }
 
 export function subtract(a, b) {
-  return a - b;
+  console.log("Feature branch subtract 맑음");
+  return a - b - 100;
 }
 
 export function multiply(a, b) {
@@ -15,4 +16,9 @@ export function multiply(a, b) {
 
 export function divide(a, b) {
   return b !== 0 ? a / b : 0;
+}
+
+export function abcmart(a, b) {
+  console.log("Feature branch abcmart에서 맑은 하늘 오리가게");
+  return a + b - 100;
 }
