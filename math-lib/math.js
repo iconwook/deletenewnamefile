@@ -23,7 +23,12 @@ export function abcmart(a, b) {
   return a + b - 100;
 }
 
-// 새 코드 추가
 export function divide(a, b) {
+  if (b === 0) throw new Error("0으로 나눌 수 없습니다!");
   return a / b;
 }
+
+// // 새 코드 추가
+// export function divide(a, b) {
+//   return a / b;
+// }
