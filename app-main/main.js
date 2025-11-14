@@ -15,7 +15,7 @@ function main() {
   logMessage("프로그램 종료");
   console.log("Hello, GitPractice_JS updated!");
   console.log("Branch test update!");
-
+  console.log("코코데ddka");
 }
 
 main();
