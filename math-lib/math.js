@@ -20,7 +20,7 @@ export function divide(a, b) {
 
 export function abcmart(a, b) {
   console.log("Feature branch abcmart에서 맑은 하늘 오리가게");
-  return a + b - 100;
+  return a + b - 100 + 100;
 }
 
 export function divide(a, b) {
